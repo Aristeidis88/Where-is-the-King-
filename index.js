@@ -57,7 +57,7 @@ if (pick < 3 ) {
 else {
     document.getElementsByTagName("h1")[0].innerHTML = "You won";
     setTimeout(function(){document.getElementsByTagName("h1")[0].innerHTML = "Where is the King?";},1000);
-    document.getElementsByTagName("p")[1].innerHTML= document.getElementsByTagName("p")[1].innerHTML +++5;}
+    document.getElementsByTagName("p")[1].innerHTML= document.getElementsByTagName("p")[1].innerHTML +++10;}
 
 //you doumbled your money or bankrupt and refresh
 if (document.getElementsByTagName("p")[1].innerHTML>= 100){
@@ -125,7 +125,7 @@ if (pick < 3 ) {
 else {
     document.getElementsByTagName("h1")[0].innerHTML = "You won";
     setTimeout(function(){document.getElementsByTagName("h1")[0].innerHTML = "Where is the King?";},1000);
-    document.getElementsByTagName("p")[1].innerHTML= document.getElementsByTagName("p")[1].innerHTML +++5;
+    document.getElementsByTagName("p")[1].innerHTML= document.getElementsByTagName("p")[1].innerHTML +++10;
     }
 //you doumbled your money or bankrupt and refresh
 if (document.getElementsByTagName("p")[1].innerHTML>= 100){
@@ -195,7 +195,7 @@ if (pick < 3 ) {
 else {
     document.getElementsByTagName("h1")[0].innerHTML = "You won";
     setTimeout(function(){document.getElementsByTagName("h1")[0].innerHTML = "Where is the King?";},1000);
-    document.getElementsByTagName("p")[1].innerHTML= document.getElementsByTagName("p")[1].innerHTML +++5;}
+    document.getElementsByTagName("p")[1].innerHTML= document.getElementsByTagName("p")[1].innerHTML +++10;}
 
 
 
