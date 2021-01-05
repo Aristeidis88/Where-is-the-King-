@@ -1,7 +1,8 @@
 var name = prompt("Enter your Name");
-alert("Hello " + name + ". We Pay 2/1 for every right guess." + "\n" + "Good luck!!");
+var finalname = name.slice(0, 16);
+alert("Hello " + finalname + ". We Pay 2/1 for every right guess." + "\n" + "Good luck!!");
 
-document.getElementsByTagName("h3")[0].innerHTML = name;
+document.getElementsByTagName("h3")[0].innerHTML = finalname;
 
 
 
