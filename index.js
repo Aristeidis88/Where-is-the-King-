@@ -8,7 +8,7 @@ document.getElementsByTagName("h3")[0].innerHTML = finalname;
 
 document.querySelector("button").addEventListener("click", function (){
     
-var pick = Math.floor (Math.random()*4+1);
+var pick = Math.floor (Math.random()*3+1);
 
 switch (pick) {
 
@@ -32,13 +32,7 @@ case 3 :
 document.getElementById("card").setAttribute("src","thirteen.png");
 setTimeout(function(){document.getElementById("card").setAttribute("src","card.png");},1000);
 break;
-
-case 4 :
-    var flip = new Audio("flip.mp3");
-    flip.play();
-document.getElementById("card").setAttribute("src","thirteen.png");
-setTimeout(function(){document.getElementById("card").setAttribute("src","card.png");},1000);
-break;}
+}
 
 
 
@@ -107,13 +101,7 @@ document.querySelectorAll("button")[1].addEventListener("click", function (){
     document.getElementById("card2").setAttribute("src","thirteen.png");
     setTimeout(function(){document.getElementById("card2").setAttribute("src","card.png");},1000);
     break;
-
-    case 4 :
-        var flip = new Audio("flip.mp3");
-    flip.play();
-        document.getElementById("card").setAttribute("src","thirteen.png");
-        setTimeout(function(){document.getElementById("card").setAttribute("src","card.png");},1000);
-        break;}
+}
    
 
 
@@ -174,13 +162,7 @@ switch(pick) {
        document.getElementById("card3").setAttribute("src","thirteen.png"); 
         setTimeout(function(){document.getElementById("card3").setAttribute("src","card.png");},1000);
         break;
-
-case 4 :
-    var flip = new Audio("flip.mp3");
-    flip.play();
-document.getElementById("card").setAttribute("src","thirteen.png");
-setTimeout(function(){document.getElementById("card").setAttribute("src","card.png");},1000);
-break;    }
+}
 
 
 
